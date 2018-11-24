@@ -1,0 +1,29 @@
+{
+  "name": "yaroslavche/doctrine-bitmask-type",
+  "description": "A custom Doctrine type that maps column values to BitMask objects using yaroslavche/bitmask",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yaroslavche",
+      "email": "yaroslav429@gmail.com"
+    }
+  ],
+  "keywords": [
+    "type",
+    "doctrine",
+    "bitmask"
+  ],
+  "require": {
+    "php": "^7.2",
+    "doctrine/dbal": "^2.6",
+    "yaroslavche/bitmask": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "BitMask\\Doctrine\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
